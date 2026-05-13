@@ -109,7 +109,7 @@ export function DashboardStats({ payments }: DashboardStatsProps) {
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex items-center gap-2">
                             <Calendar className="h-4 w-4 text-orange-600" />
-                            Today's Payments
+                            Today&#39;s Payments
                         </CardTitle>
                         {todayPayments > 0 && (
                             <Badge variant="outline" className="text-orange-600 border-orange-600">

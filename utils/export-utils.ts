@@ -218,7 +218,7 @@ export const exportToPDF = (payments: ScheduledPayment[], filename = 'mpesa-paym
   </table>
 
   <div class="footer">
-    <p>This is a computer-generated report from M-Pesa Scheduler</p>
+    <p>This is a computer-generated report from M-Pesa Scheduler Created by MUMBA</p>
     <p>Total Amount: ${formatCurrency(payments.reduce((sum, p) => sum + p.amount, 0), payments[0]?.currency.code || 'KES')}</p>
   </div>
 
